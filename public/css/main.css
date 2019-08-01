@@ -1,0 +1,139 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.onboard {
+  padding: 15px;
+}
+.onboarding-image {
+  width: 450px;
+}
+
+.onboarding-logo {
+  width: 175px;
+}
+
+.onboarding-container {
+  padding: 15px 45px 0 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+}
+
+.confirm-names-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  max-width: 60%;
+}
+
+@media(max-width: 850px) {
+  .confirm-names-container {
+    max-width: 90%;
+  }
+  .onboarding-container {
+    height: 100%;
+  }
+}
+
+.onboarding-button {
+  border-radius: .25rem;
+  background-color: #64CEBD;
+  display: block;
+  width: 100%;
+  color: #FFFFFF;
+  border-style: none;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  height: calc(1.5em + .75rem + 2px);
+  margin-top: 32px;
+}
+
+.onboarding-desc {
+  margin-bottom: 32px;
+}
+
+.logout-link {
+  text-decoration: none;
+  color: #64CEBD;
+  font-weight: 600;
+  padding: 45px;
+}
+
+.logout-link:hover {
+  text-decoration: none;
+  color: #0B5B46;
+}
+
+.logout-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.more-details-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  width: 30%
+}
+
+@media(max-width: 850px) {
+  .more-details-row {
+    width: 80%;
+  }
+}
+
+.text-link {
+  text-decoration: none;
+  color: black;
+}
+
+.text-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.add-btc-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet-form {
+  width: 50%;
+  margin-top: 60px;
+}
+
+.wallet-seperator {
+  display: table;
+  white-space: nowrap;
+  width: 48%;
+  text-align: center;
+  margin: 25 0 0;
+}
+
+.wallet-seperator:before,
+.wallet-seperator:after {
+  border-top: 1px solid #64CEBD;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 45%;
+}
+
+.wallet-seperator:before {
+  right: 1.5%;
+}
+
+.wallet-seperator:after {
+  left: 1.5%;
+}
